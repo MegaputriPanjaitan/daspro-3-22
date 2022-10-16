@@ -1,0 +1,42 @@
+program soal_no1;
+uses crt;
+var
+     x,y,z : integer;
+
+begin
+      clrscr;
+      write ('Masukkan nilai 1 : '); read (x);
+      write ('Masukkan nilai 2 : '); read (y);
+      write ('Masukkan nilai 3 : '); read (z);
+       if (x<y) and (y<x) then
+        begin
+          write ('Urutan : ',x,' ',y,' ',z);
+        end
+       else if (x<z) and (z<y) then
+        begin
+          write ('Urutan : ',x,' ',z,' ',y);
+        end
+       else if (y<x) and (x<z) then
+        begin
+          write ('Urutan : ',y,' ',x,' ',z);
+        end
+       else if (y<z) and (z<x) then
+        begin
+          write ('Urutan : ',y,' ',z,' ',x);
+        end
+       else if (z<x) and (x<y) then
+        begin
+          write ('Urutan : ',z,' ',x,' ',y);
+        end
+       else if (z<y) and (y<x) then
+        begin
+          write ('Urutan : ',z,' ',y,' ',x);
+        end
+       else
+        begin
+         write ('Ada nilai yang sama. Masukkan nilai yang berbeda');
+        end;
+
+ readln;
+
+end.

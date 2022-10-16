@@ -1,0 +1,18 @@
+program soal_no3;
+uses crt;
+var
+     huruf : char;
+
+begin
+      clrscr;
+      write ('Masukkan huruf : '); read(huruf);
+
+      case (huruf) of
+        'a','e','i','o','u' : write ('Huruf vokal');
+      else
+         write ('Huruf konsonan');
+       end;
+
+ readln;
+
+end.

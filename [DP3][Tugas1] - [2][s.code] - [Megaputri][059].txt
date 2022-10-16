@@ -1,0 +1,39 @@
+program soal_no2;
+uses crt;
+var
+   a : integer;
+
+begin
+    clrscr;
+    writeln ('     MENU            KODE');
+    Writeln (' Roti bakar         (101)');
+    writeln (' Pisang coklat keju (111)');
+    writeln (' Siomay             (121)');
+    writeln (' Martabak coklat    (131)');
+    writeln (' Nugget pisang      (141)');
+    writeln (' Corndog mozarella  (151)');
+    writeln (' Pancake keju       (161)');
+    writeln (' Jagung susu keju   (171)');
+    writeln (' Dimsum spesial     (181)');
+    writeln (' Dorayaki oreo      (191)');
+
+    write ('Masukkan kode menu pilihan anda:'); read(a);
+
+    case (a) of
+      101 : write ('Roti bakar         Rp15000');
+      111 : write ('Pisang coklat keju Rp18000');
+      121 : write ('Siomay             Rp10000');
+      131 : write ('Martabak coklat    Rp15000');
+      141 : write ('Nugget pisang      Rp17000');
+      151 : write ('Corndog mozarella  Rp20000');
+      161 : write ('Pancake keju       Rp20000');
+      171 : write ('Jagung susu keju   Rp25000');
+      181 : write ('Dimsum spesial     RP25000');
+      191 : write ('Dorayaki oreo      Rp20000');
+     end;
+
+
+
+  readln;
+
+end.
