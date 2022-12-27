@@ -2,7 +2,7 @@
 
 Perkenalkan saya Megaputri Nathalina Panjaitan, dengan NIM 221401059 dari Lab Dp3. 
 
-### Program ini merupakan program yang menyediakan beberapa pilihan berbelanja. Fungsinya adalah untuk membantu kita menentukan pilihan saat belanja yang disertai dengan harga dari setiap pilihan. Tujuan dari program ini adalah supaya user dapat mengetahui harga dari setiap barng yang akan dibeli.
+### Program ini merupakan program yang menyediakan beberapa pilihan berbelanja. Fungsinya adalah untuk membantu kita menentukan pilihan saat belanja yang disertai dengan harga dari setiap pilihan. Tujuan dari program ini adalah supaya user dapat mengetahui harga dari setiap barang yang akan dibeli.
 
 #### Alur Program
 1. Tampilan Awal : Program ini akan menampilkan beberapa jenis kebutuhan yang disertai dengan kode dari masing-masing jenis kebutuhan.
